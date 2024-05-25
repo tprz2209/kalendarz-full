@@ -1,0 +1,143 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Titillium Web", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-tour {
+  background-color: #1b2a3f;
+  font-weight: 600;
+}
+
+.other-tours {
+  background-color: #404a59;
+}
+
+.month {
+  background-color: #cc1f3c;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 25px solid red;
+  margin-top: 59px;
+}
+
+section {
+  width: 100%;
+}
+
+nav {
+  background-color: #0b1119;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ }
+
+ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 70%;
+  font-size: 1.3rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.active-calendar {
+  background-color: #323f52;
+  border-radius: 10px;
+}
+
+.calendar-main tbody tr {
+  font-weight: 500;
+}
+
+.calendar-main tbody tr td:first-child {
+  font-weight: 600;
+}
+
+.calendar-main tbody .month {
+    font-weight: 600;
+}
+
+table {
+  width: 100%;
+  background-color: #101926;
+  overflow: hidden;
+}
+
+thead {
+  width: 100%;
+  background-color: #101926;
+  height: 2em;
+  font-size: 1.3em;
+}
+
+th {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+td {
+  font-size: 1.4em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+td.row-date {
+  width: 20%;
+}
+
+td.row-tournament {
+  width: 50%;
+}
+
+
+footer {
+  background-color: #101926;
+  color: white;
+  text-align: right;
+  font-weight: 700;
+  padding: 5px;
+  padding-right: 10px;
+  font-size: 1.2em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
